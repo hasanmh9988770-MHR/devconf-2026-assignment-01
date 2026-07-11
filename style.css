@@ -38,3 +38,52 @@ button {
     padding: 15px;
     margin-left: 100px;
 }
+.banner {
+        width: 100%;
+        height: auto;
+} 
+
+ header {
+   background-image: url('./assets/banner.jpg');
+   height: 90vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+.header-content {
+max-width: 800px;
+ color: #FFFFFF;
+ padding: 20px;
+ text-align: center; 
+ margin-left: 420px;
+}
+.header-content h1 {
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top:30px;
+    line-height: 1.2;
+}
+.header-content p {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+.header-button button {
+    font-size: 1.2rem;
+    padding: 13px 30px;
+    border-radius: 8px;
+}
