@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ ul {
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: #575757
+}
+button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    margin-right: 110px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logo { 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    margin-left: 100px;
+}
