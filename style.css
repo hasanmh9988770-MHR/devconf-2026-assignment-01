@@ -97,14 +97,36 @@ button {
 .speaker-4 p {
     color: #2563EB;
     padding: 10px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 18px;
 }
 .speaker-1 p2,
 .speaker-2 p2,
 .speaker-3 p2,
 .speaker-4 p2 {
-color: #575757;
+ color: #575757;
+ font-family: "Inter", sans-serif;
+ font-size: 14px;
+ line-height: 21px;
 
 }
+.speaker-1 h3,
+.speaker-2 h3,
+.speaker-3 h3,
+.speaker-4 h3{
+padding-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.5px;
+    letter-spacing: 0;
+    color: #0D1B2A;
+}
+
+
 .speakers h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -153,14 +175,19 @@ color: #575757;
 
 }
 .pricing-cards ul li::marker {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700; 
+    line-height: 21px;
     color: #60A5FA;
 }
+
 .pricing-cards ul li {
     color: #4B5563; 
     font-weight: 400;
     font-size: 16px;
-    line-height: 25px;
     margin-bottom: 10px;
+    line-height: 21px;
 }
 .card-2 {
     border: 1px solid #0F172A;
@@ -237,12 +264,10 @@ padding-top: 10px;
     color: #FFFFFF;
     opacity: 70%;
     font-weight:400;
+    font-size: 14px;
+    line-height: 21px;
+}
 
-}
-.card-2 ul li::marker {
-    color: #3B82F6;
-    font-size: 12px;
-}
 .card1-btn {
     background-color: #FFFFFF;
     color: #2563EB;
@@ -283,7 +308,7 @@ padding-top: 10px;
     color: #FFFFFF;
 }
 
-fix the css,  /*==========================
+ /*==========================
       NEWSLETTER
 ==========================*/
 
